@@ -15,6 +15,6 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 public class SecurityConfig {
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
-        return http.csrf((csrf) -> csrf.ignoringRequestMatchers("/jobs/**")).build();
+        return http.csrf((csrf) -> csrf.ignoringRequestMatchers("/jobs/**", "/role/**")).build();
     }
 }

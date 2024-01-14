@@ -1,6 +1,6 @@
 package com.jobquest.application.controller;
 
-import com.jobquest.application.model.JobListing;
+import com.jobquest.application.entity.JobListing;
 import com.jobquest.application.service.JobListingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

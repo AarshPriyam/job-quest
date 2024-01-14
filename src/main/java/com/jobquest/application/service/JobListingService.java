@@ -1,6 +1,6 @@
 package com.jobquest.application.service;
 
-import com.jobquest.application.model.JobListing;
+import com.jobquest.application.entity.JobListing;
 import com.jobquest.application.repository.JobListingRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
